@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class AuthService {
-  private IVRUri = 'http://192.168.10.16:3355/user';
+  private IVRUri = 'https://lingbot-api.lingtelli.com/IVR/user';
   IVRUser: any;
 
   constructor(private http: Http) { }
